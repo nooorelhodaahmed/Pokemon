@@ -63,38 +63,6 @@
             endingLineNumber = "36"
             landmarkName = "test_fetch_charchters()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "ECC48B8D-5D3A-4283-9CF8-6C173DC452CC - 1813afd3793d2e43"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PokemonTests.ApiServiceTests.test_fetch_charchters() -&gt; ()"
-                  moduleName = "PokemonTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/norelhoda/Desktop/AppDevelopment/job-tasks/Pokemon/PokemonTests/ApiServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "755">
-               </Location>
-               <Location
-                  uuid = "ECC48B8D-5D3A-4283-9CF8-6C173DC452CC - d51a38c2f1d3eb2a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Pokemon.CharacterListModel) -&gt; () in PokemonTests.ApiServiceTests.test_fetch_charchters() -&gt; ()"
-                  moduleName = "PokemonTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/norelhoda/Desktop/AppDevelopment/job-tasks/Pokemon/PokemonTests/ApiServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "39">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -110,6 +78,38 @@
             startingLineNumber = "41"
             endingLineNumber = "41"
             landmarkName = "test_fetch_charchters()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "296F7084-D0F1-4BF9-87F4-53F45682460A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokemon/View/DetailsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EB43C57-12CA-4A5F-98D6-235CD903F18D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokemon/ViewModel/DetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "setImageArray(data:states:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -108,13 +108,13 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lha-jV-Iqg">
-                                <rect key="frame" x="0.0" y="111" width="414" height="712"/>
+                                <rect key="frame" x="0.0" y="111" width="414" height="702"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shC-eG-5Dv" userLabel="containerView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="735"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hrC-MP-sxk">
-                                                <rect key="frame" x="20" y="10" width="374" height="399"/>
+                                                <rect key="frame" x="0.0" y="10" width="414" height="399"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="399" id="mN3-o0-Sgs"/>
@@ -141,17 +141,17 @@
                                                 </connections>
                                             </collectionView>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ApT-1N-Zup">
-                                                <rect key="frame" x="16" y="435" width="382" height="300"/>
+                                                <rect key="frame" x="0.0" y="435" width="414" height="300"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="300" id="qYJ-Kt-CX0"/>
                                                 </constraints>
                                                 <view key="tableHeaderView" contentMode="scaleToFill" id="P2l-eH-fT7">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="44"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="stats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wo5-OW-HgT">
-                                                            <rect key="frame" x="163" y="6.5" width="56.5" height="31"/>
+                                                            <rect key="frame" x="179" y="6.5" width="56.5" height="31"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
                                                             <color key="textColor" red="0.34509803919999998" green="0.36470588240000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -169,11 +169,11 @@
                                         <constraints>
                                             <constraint firstItem="ApT-1N-Zup" firstAttribute="top" secondItem="hrC-MP-sxk" secondAttribute="bottom" constant="26" id="88G-ZQ-w6b"/>
                                             <constraint firstItem="hrC-MP-sxk" firstAttribute="top" secondItem="shC-eG-5Dv" secondAttribute="top" constant="10" id="8rW-cm-g79"/>
-                                            <constraint firstItem="hrC-MP-sxk" firstAttribute="leading" secondItem="shC-eG-5Dv" secondAttribute="leading" constant="20" symbolic="YES" id="FJP-3v-vKH"/>
+                                            <constraint firstItem="hrC-MP-sxk" firstAttribute="leading" secondItem="shC-eG-5Dv" secondAttribute="leading" id="FJP-3v-vKH"/>
                                             <constraint firstAttribute="bottom" secondItem="ApT-1N-Zup" secondAttribute="bottom" id="Pv0-PV-GFz"/>
-                                            <constraint firstAttribute="trailing" secondItem="ApT-1N-Zup" secondAttribute="trailing" constant="16" id="YB0-ga-zf7"/>
-                                            <constraint firstAttribute="trailing" secondItem="hrC-MP-sxk" secondAttribute="trailing" constant="20" symbolic="YES" id="mj5-uX-ul4"/>
-                                            <constraint firstItem="ApT-1N-Zup" firstAttribute="leading" secondItem="shC-eG-5Dv" secondAttribute="leading" constant="16" id="sNE-le-0xW"/>
+                                            <constraint firstAttribute="trailing" secondItem="ApT-1N-Zup" secondAttribute="trailing" id="YB0-ga-zf7"/>
+                                            <constraint firstAttribute="trailing" secondItem="hrC-MP-sxk" secondAttribute="trailing" id="mj5-uX-ul4"/>
+                                            <constraint firstItem="ApT-1N-Zup" firstAttribute="leading" secondItem="shC-eG-5Dv" secondAttribute="leading" id="sNE-le-0xW"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -189,7 +189,7 @@
                         <viewLayoutGuide key="safeArea" id="5PM-nG-YdF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="5PM-nG-YdF" firstAttribute="bottom" secondItem="Lha-jV-Iqg" secondAttribute="bottom" constant="-10" id="0Py-fL-khk"/>
+                            <constraint firstItem="5PM-nG-YdF" firstAttribute="bottom" secondItem="Lha-jV-Iqg" secondAttribute="bottom" id="0Py-fL-khk"/>
                             <constraint firstItem="O98-8Q-9p3" firstAttribute="top" secondItem="5PM-nG-YdF" secondAttribute="top" constant="-48" id="0i3-DL-W80"/>
                             <constraint firstItem="O98-8Q-9p3" firstAttribute="leading" secondItem="5PM-nG-YdF" secondAttribute="leading" id="64C-vC-FtL"/>
                             <constraint firstAttribute="trailing" secondItem="Lha-jV-Iqg" secondAttribute="trailing" id="FXh-Dd-CO1"/>

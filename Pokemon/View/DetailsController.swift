@@ -90,7 +90,6 @@ extension DetailsController:UICollectionViewDelegate,UICollectionViewDataSource,
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! DetailColectionViewCell
 
-       
         cell.image.load(urlString: viewModel.imageArray[indexPath.row])
         return cell
     }
@@ -110,7 +109,7 @@ extension DetailsController:UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! DetailTableViewCell
-        cell.name.text = self.viewModel.stateName[indexPath.row]
+        cell.name.text = self.viewModel.stateName[indexPath.row].trimmingCharacters(in: .whitespaces)
         cell.value.text =  String(self.viewModel.stateValue[indexPath.row])
         cell.selectionStyle = .none
         return cell
